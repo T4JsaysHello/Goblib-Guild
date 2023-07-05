@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Texturina:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Syne+Tactile&family=Texturina:wght@200&display=swap');
+/* Background */
+
+.Web_Container {
+    background-color: black;
+}
+
+.img_Container{ 
+
+    min-width: none;
+    height: 100vh;
+    background-image: linear-gradient(rgba(179, 207, 240, 0.356), transparent),linear-gradient(transparent, rgba(0,0,0,0.8)),url(/Image_Gallery/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+.main_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14rem;
+}
+
+.form_container{
+    width: 380px;
+    height: 600px;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+
+.login_content h1, form{
+    margin: 5rem;
+    font-family: 'Syne Tactile', cursive;
+}
+
+.register_content h1, form{
+    margin: 3rem;
+    font-family: 'Syne Tactile', cursive;
+}
+
+.input_box {
+    height: 4rem;
+    width: 26rem;
+    border-radius: 4rem;
+    padding: 2rem;
+}
+
+.submit_button {
+    border-style: none;
+    padding: 1rem 6rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: rgb(126, 165, 126);
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.imput_label {
+    font-size: 2rem;
+}
+
+.login_form p, .input_box, .submit_button {
+    margin: 1rem;
+} 
+
+
+
+
+ /* ------------------------------------------------------------------------------- */   
+
+ /* main content body and position */
+.account_wrap{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.content_body{
+    background-color: rgba(0, 0, 0, 0.459);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 5rem;
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+/* button style */
+
+
+.bt_style{
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: rgb(126, 165, 126);
+    color: white;
+    cursor: pointer;
+    width: 25rem;
+    font-size: 2rem;
+}
+
+
+.dlt_bt{
+    background-color: rgb(240, 12, 12);
+    font-size: 2rem;
+}
+
+#Result{
+    font-size: 2rem;
+}
+
+#CheckLog{
+    font-size: 2rem;
+}
+      
+

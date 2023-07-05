@@ -1,0 +1,114 @@
+/* font Imports */
+/* this css applies to all pages */
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Texturina:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Syne+Tactile&family=Texturina:wght@200&display=swap');
+
+
+/* ------------------------------------------------------------------------------- */
+
+/* global design */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+html{
+    font-size: 62.5%; /*1rem = 10px*/
+}
+
+h1{
+    font-size: 4rem;
+}
+
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+/*header Banner*/
+
+
+
+/* head_content > header > navigation bar > unordered list */
+
+
+
+
+
+
+
+nav {
+    min-height: 10vh; 
+    display: flex;
+    width: 90%;
+    margin:auto;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.nav_tabs li a{
+    font-size: 2rem;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 40rem;
+    list-style-type: none;
+}
+
+
+.nav_tabs li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease 0s;
+    font-family: 'Syne Tactile', cursive;
+}
+.nav_tabs li a:hover{
+    color: rgb(126, 165, 126);
+}
+
+
+
+/* header_content > header > navigation bar > logo */
+#logo {
+    
+    flex: 7 1 40rem;
+    color: rgb(132, 204, 132);
+   
+   
+}
+#logo h1{
+    font-family: 'Fruktur', cursive;
+}
+
+.nav_tabs li .current_tab{
+    color: rgb(132, 204, 132);
+    
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------- */

@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Texturina:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Syne+Tactile&family=Texturina:wght@200&display=swap');
+/* background colour */
+
+/* .Web_Container {
+    background-color: black;
+} */
+
+
+.img_Container{ 
+
+    min-width: none;
+    height: 100vh;
+    background-image: linear-gradient(rgba(179, 207, 240, 0.356), transparent),linear-gradient(transparent, rgba(0,0,0,0.8)),url(/Image_Gallery/goblinhero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+/* ------------------------------------------------------------------------------- */
+
+
+    /* Custom Scroll Bar */
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* ------------------------------------------------------------------------------- */
+
+    /* header_content > quest_request  */
+.quest_request {
+    
+    padding: 3rem;
+    padding-bottom: 4.5rem;
+    margin: auto;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: White;
+    flex: 1;
+    
+    
+}
+.quest_request h2, p{
+    font-family: 'Texturina', serif;
+}
+
+
+
+
+/* header_content > quest_request > quest_accepted */
+
+
+
+/* Button Styles */
+
+#quest_accepted {
+    border: none;
+    border-radius: 0.5rem; 
+    width: 20rem;
+    height: 3rem;
+    margin: 2rem;
+    padding: 0rem;
+    background: none;
+    cursor: pointer;
+    transition: 0.7s all ease 0s;
+       
+}
+#quest_accepted h3{
+
+    font-size: 1.9rem;
+    color:rgb(255, 0, 0);
+    font-family: 'Texturina', serif;
+}
+
+#quest_accepted:hover{
+    background-color: rgb(104, 136, 104);
+    
+} 
+#quest_accepted h3:hover{
+    color: ivory;
+}
+
+
+
+
+
+
+
+/* Button 2 styles */
+#quest_info {
+    border: none;
+    border-radius: 0.5rem; 
+    width: 20rem;
+    height: 3rem;
+    margin: 2rem;
+    padding: 0rem;
+    background: none;
+    cursor: pointer;
+    transition: 0.7s all ease 0s;
+       
+}
+#quest_info > h3{
+
+    font-size: 1.9rem;
+    color:rgb(255, 0, 0);
+    font-family: 'Texturina', serif;
+}
+
+#quest_info:hover{
+    background-color: rgb(104, 136, 104);
+    
+} 
+#quest_info h3:hover{
+    color: ivory;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+
+/* Section > Rules and Controls */
+
+.rules_controls_container{
+    height: 100vh;
+    background: black;
+    color: ivory;
+    
+}
+
+.rules_controls_container h1, h3{
+    font-family: 'Texturina', serif;
+}
+
+#rultrols {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    }
+
+#page_title_rules {
+    align-content: center;
+    justify-content: center;
+}
+
+#rule_contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rule_contents section{
+    font-size: 3rem;
+    padding: 3rem;
+    margin: 4rem;
+}
+
+
+#rule_contents .controls {
+    align-self: flex-start;
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+/* Section > GameSpace */
+
+.main_content{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    min-height: 100%;
+    padding: 5%;
+} 
+
+#game_screen{
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+#game_screen h1{
+    text-align: center;
+    padding: 5rem;
+    font-family: 'Texturina', serif;
+}  
+
+
+
+/* -------------------------------------------------------------------------------*/
+
+
+
